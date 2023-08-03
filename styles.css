@@ -113,9 +113,10 @@ button {
 
 .quote {
     font-size: 36px;
-    font-style: italic;
+    font-style: light italic;
     max-width: 800px;
     align-self: center;
+    font-weight: lighter;
 }
 
 .attribute {
@@ -136,23 +137,24 @@ button {
     background-color: #3882F6;
     align-items: center;
     border-radius: 8px;
-    padding: 30px 100px;
+    padding: 30px 150px;
 }
 
 .words{
     flex-direction: column;
     padding-right: 100px;
+    gap: 5px;
 }
 
 .footer {
     flex: 1;
     align-items: center;
     flex-direction: column;
-    padding: 30px;
+    padding: 20px;
 }
 
-.statement span {
-    font-size: 20px;
+span.statement {
+    font-size: 18px;
     font-weight: 600;
 }
 
@@ -175,10 +177,10 @@ button#bottom {
     border: 2px solid #F9FAF8;
 }
 
-a, span {
+a, span, .statement {
     color: #E5E7EB;
-    font-size: 18px;
-    font-weight: 200;
+    font-size: 16px;
+    font-weight: 100;
 }
 
 .carousel, .end {
